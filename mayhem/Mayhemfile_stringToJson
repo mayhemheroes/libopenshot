@@ -1,0 +1,5 @@
+project: libopenshot
+target: stringtojson
+cmds:
+  - cmd: /fuzz_stringToJson
+    libfuzzer: true
